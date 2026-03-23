@@ -81,6 +81,14 @@ This dataset is fully synthetic and was created as a supporting research artifac
 
 All queries, explanations, data source references, and outcomes were generated for research, benchmarking, and publication purposes.
 
+## Related Publication
+
+This dataset supports the following white paper:
+
+**Conversational AI for Digital Government – A Standards-Aligned Framework for Data Transparency and Policy Decision-Making**
+
+DOI: https://doi.org/10.5281/zenodo.17383234
+
 ## Citation
 
 If you use this dataset, please cite:
