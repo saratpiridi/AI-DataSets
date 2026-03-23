@@ -1,28 +1,26 @@
+# AI-DataSets
 
-
-# AI-Datasets
-
-A curated collection of **synthetic, research-grade datasets** designed to support experimentation, benchmarking, and innovation in **Artificial Intelligence, Agentic Systems, and Intelligent Automation**.
+A curated repository of **synthetic, research-grade datasets** designed to support innovation in **Artificial Intelligence, Agentic Systems, and Trustworthy Automation**.
 
 ---
 
 ## Overview
 
-This repository hosts a growing set of datasets developed to enable:
+**AI-DataSets** is a centralized collection of datasets developed to enable:
 
 * Reproducible AI research
-* Evaluation of intelligent decision systems
-* Benchmarking of automation and agent-based workflows
-* Exploration of responsible and trustworthy AI
+* Benchmarking of intelligent decision systems
+* Development of automation and agent-based workflows
+* Exploration of responsible and explainable AI
 
 All datasets in this repository are:
 
-* Fully **synthetic and privacy-safe**
-* Designed for **academic and open-source use**
-* Structured for **real-world simulation scenarios**
-* Aligned with modern AI domains such as:
+* **Fully synthetic and privacy-safe**
+* Designed for **academic, research, and experimental use**
+* Structured to simulate **real-world decision-making scenarios**
+* Aligned with emerging AI domains including:
 
-  * Multi-agent systems
+  * Agentic systems
   * Human-in-the-loop decision making
   * Automation workflows
   * AI governance and explainability
@@ -31,29 +29,28 @@ All datasets in this repository are:
 
 ## Repository Structure
 
-```text
-AI-Datasets/
-├── trustworthy-automation-decision-dataset/
-│   ├── README.md
-│   ├── dataset_card.md
-│   ├── CITATION.cff
-│   └── data/
-│       └── tadd_v1.csv
-└── README.md
+```id="m6n0he"
+AI-DataSets/
+└── trustworthy-automation-decision-dataset/
+    ├── data/
+    ├── scripts/
+    ├── README.md
+    ├── dataset_card.md
+    └── LICENSE
 ```
 
-Each dataset is self-contained and includes:
+Each dataset is organized as an independent module with:
 
 * Dataset files (CSV/JSON)
 * Documentation (README, dataset card)
-* Generation scripts (if applicable)
+* Generation and validation scripts
 * Citation instructions
 
 ---
 
 ## Available Datasets
 
-### 1. Trustworthy Automation Decision Dataset (TADD)
+### 🔹 Trustworthy Automation Decision Dataset (TADD)
 
 A synthetic dataset modeling **AI-driven decision-making in automation workflows**, incorporating:
 
@@ -63,9 +60,13 @@ A synthetic dataset modeling **AI-driven decision-making in automation workflows
 * Human override behavior
 * Final decision outcomes
 
-Location: `trustworthy-automation-decision-dataset/`
+📁 Location:
+`trustworthy-automation-decision-dataset/`
 
-Related Research:
+📊 Dataset DOI:
+https://doi.org/10.5281/zenodo.19191957
+
+📄 Related Research:
 Piridi, S., Koduri, N. K., Asundi, S. (2025)
 *Extending Microsoft Power Platform with Responsible AI: A Model for Trustworthy Automation*
 https://ieeexplore.ieee.org/document/11281047
@@ -78,11 +79,11 @@ All datasets in this repository follow these principles:
 
 ### 1. Synthetic by Design
 
-No real user, enterprise, or confidential data is used.
+No real user, enterprise, or confidential data is included.
 
 ### 2. Research-Oriented
 
-Datasets are structured to support:
+Datasets are structured for:
 
 * experimentation
 * benchmarking
@@ -92,13 +93,12 @@ Datasets are structured to support:
 
 Where applicable, datasets include:
 
-* reasoning signals
 * decision context
-* interpretability indicators
+* interpretability signals
 
 ### 4. Responsible AI Focus
 
-Datasets incorporate elements such as:
+Datasets incorporate:
 
 * fairness considerations
 * compliance signals
@@ -108,25 +108,85 @@ Datasets incorporate elements such as:
 
 ## How to Use
 
-You can:
+You can use these datasets to:
 
-* Download datasets for research or experimentation
-* Train models on structured decision workflows
-* Benchmark AI systems and automation pipelines
-* Build prototypes for agent-based systems
+* Train machine learning models
+* Evaluate decision-making systems
+* Build agent-based AI applications
+* Benchmark automation workflows
+
+Each dataset folder contains detailed usage instructions.
 
 ---
 
 ## Citation
 
-If you use this dataset, please cite:
+If you use datasets from this repository, please cite:
 
-Piridi, S. (2026).  
-Trustworthy Automation Decision Dataset (TADD) (v1.0).  
+### Dataset
+
+Piridi, S. (2026).
+Trustworthy Automation Decision Dataset (TADD) (v1.0).
 Zenodo. https://doi.org/10.5281/zenodo.19191957
 
-If you use the conceptual framework behind this dataset, please also cite:
+### Related Research
 
-Piridi, S., Koduri, N. K., Asundi, S. (2025).  
-"Extending Microsoft Power Platform with Responsible AI: A Model for Trustworthy Automation."  
+Piridi, S., Koduri, N. K., Asundi, S. (2025).
+"Extending Microsoft Power Platform with Responsible AI: A Model for Trustworthy Automation."
 https://ieeexplore.ieee.org/document/11281047
+
+---
+
+## Contributing
+
+Contributions are welcome.
+
+You may:
+
+* Propose new datasets
+* Improve documentation
+* Add tools or evaluation scripts
+
+Requirements:
+
+* All data must be synthetic
+* No proprietary or sensitive data
+
+---
+
+## License
+
+This repository is released under the MIT License unless otherwise specified within individual datasets.
+
+---
+
+## Disclaimer
+
+All datasets are synthetic and intended for research and educational purposes only.
+They do not represent any real organization, system, or individual.
+
+---
+
+## Author
+
+**Sarat Piridi**
+AI Researcher | Automation Architect | Agentic Systems
+
+---
+
+## Future Work
+
+Planned additions include:
+
+* Multi-Agent Decision Intelligence Dataset
+* AI Workflow Benchmark Dataset
+* Human-AI Collaboration Dataset
+* Autonomous Automation Execution Dataset
+
+---
+
+## Contact
+
+For research collaboration or inquiries, please connect via GitHub or professional channels.
+
+---
