@@ -1,3 +1,5 @@
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.19191957.svg)](https://doi.org/10.5281/zenodo.19191957)
+
 # AI-Datasets
 
 A curated collection of **synthetic, research-grade datasets** designed to support experimentation, benchmarking, and innovation in **Artificial Intelligence, Agentic Systems, and Intelligent Automation**.
@@ -29,15 +31,14 @@ All datasets in this repository are:
 
 ## Repository Structure
 
-```
+```text
 AI-Datasets/
-├── datasets/
-│   ├── trustworthy-automation-decision-dataset/
-│   ├── (future datasets...)
-│
-├── docs/
-│   └── dataset-guidelines.md
-│
+├── trustworthy-automation-decision-dataset/
+│   ├── README.md
+│   ├── dataset_card.md
+│   ├── CITATION.cff
+│   └── data/
+│       └── tadd_v1.csv
 └── README.md
 ```
 
@@ -62,9 +63,9 @@ A synthetic dataset modeling **AI-driven decision-making in automation workflows
 * Human override behavior
 * Final decision outcomes
 
-🔗 Location: `datasets/trustworthy-automation-decision-dataset/`
+Location: `trustworthy-automation-decision-dataset/`
 
-📄 Related Research:
+Related Research:
 Piridi, S., Koduri, N. K., Asundi, S. (2025)
 *Extending Microsoft Power Platform with Responsible AI: A Model for Trustworthy Automation*
 https://ieeexplore.ieee.org/document/11281047
@@ -118,12 +119,14 @@ You can:
 
 ## Citation
 
-If you use any dataset from this repository, please cite:
+If you use this dataset, please cite:
 
-### Dataset (Generic Format)
+Piridi, S. (2026).  
+Trustworthy Automation Decision Dataset (TADD) (v1.0).  
+Zenodo. https://doi.org/10.5281/zenodo.19191957
 
-```
-Piridi, S. (2026).
-AI-Datasets: A Collection of Synthetic Datasets for AI and Automation Research.
-GitHub
-```
+If you use the conceptual framework behind this dataset, please also cite:
+
+Piridi, S., Koduri, N. K., Asundi, S. (2025).  
+"Extending Microsoft Power Platform with Responsible AI: A Model for Trustworthy Automation."  
+https://ieeexplore.ieee.org/document/11281047
