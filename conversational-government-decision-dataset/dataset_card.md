@@ -30,3 +30,5 @@ The dataset includes risk levels and override indicators to support responsible 
 ## Synthetic Data Disclosure
 
 CGDD is a fully synthetic dataset. It does not contain real citizen data, government case data, confidential records, or proprietary system outputs. All records were generated to be realistic in tone and structure while remaining safe for public release through open research channels such as GitHub, Kaggle, and Zenodo.
+
+Kaggle DOI: https://doi.org/10.34740/kaggle/dsv/15339621

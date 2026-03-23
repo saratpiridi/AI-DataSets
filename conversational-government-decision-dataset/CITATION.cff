@@ -7,3 +7,7 @@ orcid: https://orcid.org/0000-0000-0000-0000
 title:saratpiridi/AI-DataSets: Conversational Government Decision Dataset (CGDD) v1.0
 version: v1.1
 date-released: 2026-03-23
+identifiers:
+  - type: doi
+    value: 10.34740/kaggle/dsv/15339621
+    description: Kaggle version DOI

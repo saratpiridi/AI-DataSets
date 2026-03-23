@@ -75,6 +75,11 @@ This project is organized to support direct upload and publication workflows:
 - validation tooling to confirm schema consistency and publication quality
 - permissive licensing for open research distribution
 
+Dataset availability:
+
+- Zenodo DOI: https://doi.org/10.5281/zenodo.19195085
+- Kaggle DOI: https://doi.org/10.34740/kaggle/dsv/15339621
+
 ## Provenance
 
 This dataset is fully synthetic and was created as a supporting research artifact for the white paper *Conversational AI for Digital Government: A Standards-Aligned Framework for Data Transparency and Policy Decision-Making*. It does not contain real citizen records, agency case files, or operational government data.
@@ -94,6 +99,10 @@ DOI: https://doi.org/10.5281/zenodo.17383234
 If you use this dataset, please cite:
 
 Piridi, S. (2026). Conversational Government Decision Dataset (CGDD) (v1.0). Zenodo. https://doi.org/10.5281/zenodo.19195085
+
+### Kaggle Version
+
+Piridi, S. (2026). Conversational Government Decision Dataset (CGDD) [Data set]. Kaggle. https://doi.org/10.34740/kaggle/dsv/15339621
 
 If you use the conceptual framework, standards-aligned methodology, or research motivation that informed the dataset design, also cite the associated white paper:
 

@@ -92,6 +92,32 @@ Piridi, S. (2026)
 *Conversational AI for Digital Government – A Standards-Aligned Framework for Data Transparency and Policy Decision-Making*  
 https://doi.org/10.5281/zenodo.17383234  
 
+### Conversational Government Decision Dataset (CGDD)
+
+A synthetic dataset modeling **conversational AI decision support in digital government**, incorporating:
+
+* Transparency-oriented responses
+* Standards-aligned policy references
+* Confidence and risk indicators
+* Human oversight requirements
+* Final public-sector workflow outcomes
+
+Location:
+`conversational-government-decision-dataset/`
+
+Dataset DOI:
+https://doi.org/10.5281/zenodo.19195085
+
+Kaggle DOI:
+https://doi.org/10.34740/kaggle/dsv/15339621
+
+Kaggle citation:
+Piridi, S. (2026). Conversational Government Decision Dataset (CGDD) [Data set]. Kaggle. https://doi.org/10.34740/kaggle/dsv/15339621
+
+Related Research:
+*Conversational AI for Digital Government: A Standards-Aligned Framework for Data Transparency and Policy Decision-Making*
+https://doi.org/10.5281/zenodo.17383234
+
 ---
 
 ## Design Principles
@@ -153,6 +179,10 @@ Kaggle. https://doi.org/10.34740/KAGGLE/DSV/15338575
 Sarat Piridi. (2026).  
 Conversational Government Decision Dataset (CGDD) (v1.0).  
 Zenodo. https://doi.org/10.5281/zenodo.19195085  
+
+### CGDD Kaggle Version
+
+Piridi, S. (2026). Conversational Government Decision Dataset (CGDD) [Data set]. Kaggle. https://doi.org/10.34740/kaggle/dsv/15339621
 
 ---
 
