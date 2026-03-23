@@ -19,8 +19,8 @@ preferred-citation:
       given-names: Sarat
   title: Trustworthy Automation Decision Dataset (TADD)
   year: 2026
-  doi: TO_BE_ADDED
-  url: TO_BE_ADDED
+  doi: 10.5281/zenodo.19191957
+  url: https://doi.org/10.5281/zenodo.19191957
 references:
   - type: paper-conference
     authors:

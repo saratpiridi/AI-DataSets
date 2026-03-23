@@ -120,21 +120,26 @@ Paper citation BibTeX:
 }
 ```
 
-Dataset citation placeholder BibTeX:
+Dataset citation BibTeX:
 
 ```bibtex
 @dataset{piridi_tadd_2026,
   author = {Sarat Piridi},
   title  = {Trustworthy Automation Decision Dataset (TADD)},
   year   = {2026},
-  doi    = {TO_BE_ADDED},
-  url    = {TO_BE_ADDED}
+  doi    = {10.5281/zenodo.19191957},
+  url    = {https://doi.org/10.5281/zenodo.19191957}
 }
 ```
 
 ## Zenodo Metadata Notes
 
-For Zenodo upload, add the paper as a related identifier:
+Zenodo record for this dataset:
+
+- DOI: 10.5281/zenodo.19191957
+- DOI URL: https://doi.org/10.5281/zenodo.19191957
+
+For Zenodo metadata, add the paper as a related identifier:
 
 - Identifier: https://ieeexplore.ieee.org/document/11281047
 - Relation: Is derived from

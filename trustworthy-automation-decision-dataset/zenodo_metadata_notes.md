@@ -1,5 +1,10 @@
 # Zenodo Metadata Notes
 
+Zenodo record for this dataset:
+
+- DOI: 10.5281/zenodo.19191957
+- DOI URL: https://doi.org/10.5281/zenodo.19191957
+
 For Zenodo upload, add the related conference paper as a related identifier.
 
 - Identifier: https://ieeexplore.ieee.org/document/11281047
