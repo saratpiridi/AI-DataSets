@@ -1,3 +1,5 @@
+[DOI: 10.34740/KAGGLE/DSV/15338575](https://doi.org/10.34740/KAGGLE/DSV/15338575)
+
 # AI-DataSets
 
 A curated repository of **synthetic, research-grade datasets** designed to support innovation in **Artificial Intelligence, Agentic Systems, and Trustworthy Automation**.
@@ -29,7 +31,7 @@ All datasets in this repository are:
 
 ## Repository Structure
 
-```id="m6n0he"
+```text
 AI-DataSets/
 └── trustworthy-automation-decision-dataset/
     ├── data/
@@ -50,7 +52,7 @@ Each dataset is organized as an independent module with:
 
 ## Available Datasets
 
-### 🔹 Trustworthy Automation Decision Dataset (TADD)
+### Trustworthy Automation Decision Dataset (TADD)
 
 A synthetic dataset modeling **AI-driven decision-making in automation workflows**, incorporating:
 
@@ -60,13 +62,13 @@ A synthetic dataset modeling **AI-driven decision-making in automation workflows
 * Human override behavior
 * Final decision outcomes
 
-📁 Location:
+Location:
 `trustworthy-automation-decision-dataset/`
 
-📊 Dataset DOI:
-https://doi.org/10.5281/zenodo.19191957
+Dataset DOI:
+https://doi.org/10.34740/KAGGLE/DSV/15338575
 
-📄 Related Research:
+Related Research:
 Piridi, S., Koduri, N. K., Asundi, S. (2025)
 *Extending Microsoft Power Platform with Responsible AI: A Model for Trustworthy Automation*
 https://ieeexplore.ieee.org/document/11281047
@@ -121,18 +123,16 @@ Each dataset folder contains detailed usage instructions.
 
 ## Citation
 
-If you use datasets from this repository, please cite:
+If you use this dataset, please cite:
 
-### Dataset
-
-Piridi, S. (2026).
-Trustworthy Automation Decision Dataset (TADD) (v1.0).
-Zenodo. https://doi.org/10.5281/zenodo.19191957
+Sarat Piridi. (2026).  
+Trustworthy Automation Decision Dataset (TADD) [Data set].  
+Kaggle. https://doi.org/10.34740/KAGGLE/DSV/15338575
 
 ### Related Research
 
-Piridi, S., Koduri, N. K., Asundi, S. (2025).
-"Extending Microsoft Power Platform with Responsible AI: A Model for Trustworthy Automation."
+Piridi, S., Koduri, N. K., Asundi, S. (2025).  
+"Extending Microsoft Power Platform with Responsible AI: A Model for Trustworthy Automation."  
 https://ieeexplore.ieee.org/document/11281047
 
 ---

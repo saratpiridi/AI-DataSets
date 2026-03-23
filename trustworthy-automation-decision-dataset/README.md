@@ -107,6 +107,12 @@ TADD operationalizes research themes from that paper, including responsible AI i
 
 If you use the dataset directly, cite the dataset or repository release associated with your work.
 
+Recommended dataset citation:
+
+Sarat Piridi. (2026).  
+Trustworthy Automation Decision Dataset (TADD) [Data set].  
+Kaggle. https://doi.org/10.34740/KAGGLE/DSV/15338575
+
 If you use the conceptual framework, methodological framing, or research basis that informed the dataset design, also cite the paper *Extending Microsoft Power Platform with Responsible AI: A Model for Trustworthy Automation*.
 
 Paper citation BibTeX:
@@ -129,19 +135,19 @@ Dataset citation BibTeX:
   author = {Sarat Piridi},
   title  = {Trustworthy Automation Decision Dataset (TADD)},
   year   = {2026},
-  doi    = {10.5281/zenodo.19191957},
-  url    = {https://doi.org/10.5281/zenodo.19191957}
+  doi    = {10.34740/KAGGLE/DSV/15338575},
+  url    = {https://doi.org/10.34740/KAGGLE/DSV/15338575}
 }
 ```
 
-## Zenodo Metadata Notes
+## Dataset DOI Notes
 
-Zenodo record for this dataset:
+Current dataset DOI:
 
-- DOI: 10.5281/zenodo.19191957
-- DOI URL: https://doi.org/10.5281/zenodo.19191957
+- DOI: 10.34740/KAGGLE/DSV/15338575
+- DOI URL: https://doi.org/10.34740/KAGGLE/DSV/15338575
 
-For Zenodo metadata, add the paper as a related identifier:
+For repository metadata, cite the related paper as a conceptual source:
 
 - Identifier: https://ieeexplore.ieee.org/document/11281047
 - Relation: Is derived from
