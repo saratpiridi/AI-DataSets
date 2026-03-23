@@ -1,8 +1,8 @@
-[DOI: 10.34740/KAGGLE/DSV/15338575](https://doi.org/10.34740/KAGGLE/DSV/15338575)
-
 # AI-DataSets
 
-A curated repository of **synthetic, research-grade datasets** designed to support innovation in **Artificial Intelligence, Agentic Systems, and Trustworthy Automation**.
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.19195085.svg)](https://doi.org/10.5281/zenodo.19195085)
+
+A curated repository of **synthetic, research-grade datasets** designed to support innovation in **Artificial Intelligence, Agentic Systems, Conversational AI, and Trustworthy Automation**.
 
 ---
 
@@ -10,68 +10,87 @@ A curated repository of **synthetic, research-grade datasets** designed to suppo
 
 **AI-DataSets** is a centralized collection of datasets developed to enable:
 
-* Reproducible AI research
-* Benchmarking of intelligent decision systems
-* Development of automation and agent-based workflows
-* Exploration of responsible and explainable AI
+- Reproducible AI research  
+- Benchmarking of intelligent decision systems  
+- Development of automation and agent-based workflows  
+- Exploration of responsible, explainable, and policy-aware AI  
 
 All datasets in this repository are:
 
-* **Fully synthetic and privacy-safe**
-* Designed for **academic, research, and experimental use**
-* Structured to simulate **real-world decision-making scenarios**
-* Aligned with emerging AI domains including:
-
-  * Agentic systems
-  * Human-in-the-loop decision making
-  * Automation workflows
-  * AI governance and explainability
+- **Fully synthetic and privacy-safe**  
+- Designed for **academic, research, and experimental use**  
+- Structured to simulate **real-world decision-making scenarios**  
+- Aligned with emerging AI domains including:
+  - Agentic systems  
+  - Conversational AI for decision intelligence  
+  - Human-in-the-loop decision making  
+  - Automation workflows  
+  - AI governance and explainability  
 
 ---
 
 ## Repository Structure
 
-```text
 AI-DataSets/
-└── trustworthy-automation-decision-dataset/
-    ├── data/
-    ├── scripts/
-    ├── README.md
-    ├── dataset_card.md
-    └── LICENSE
-```
+├── trustworthy-automation-decision-dataset/
+├── conversational-government-decision-dataset/
+
+
 
 Each dataset is organized as an independent module with:
 
-* Dataset files (CSV/JSON)
-* Documentation (README, dataset card)
-* Generation and validation scripts
-* Citation instructions
+- Dataset files (CSV/JSON)  
+- Documentation (README, dataset card)  
+- Generation and validation scripts  
+- Citation instructions  
 
 ---
 
 ## Available Datasets
 
-### Trustworthy Automation Decision Dataset (TADD)
+### 1. Trustworthy Automation Decision Dataset (TADD)
 
 A synthetic dataset modeling **AI-driven decision-making in automation workflows**, incorporating:
 
-* Confidence scoring
-* Explainability evaluation
-* Fairness and compliance risk
-* Human override behavior
-* Final decision outcomes
+- Confidence scoring  
+- Explainability evaluation  
+- Fairness and compliance risk  
+- Human override behavior  
+- Final decision outcomes  
 
-Location:
+📍 Location:  
 `trustworthy-automation-decision-dataset/`
 
-Dataset DOI:
-https://doi.org/10.34740/KAGGLE/DSV/15338575
+📄 DOI:  
+https://doi.org/10.34740/KAGGLE/DSV/15338575  
 
-Related Research:
-Piridi, S., Koduri, N. K., Asundi, S. (2025)
-*Extending Microsoft Power Platform with Responsible AI: A Model for Trustworthy Automation*
-https://ieeexplore.ieee.org/document/11281047
+📚 Related Research:  
+Piridi, S., Koduri, N. K., Asundi, S. (2025)  
+*Extending Microsoft Power Platform with Responsible AI: A Model for Trustworthy Automation*  
+https://ieeexplore.ieee.org/document/11281047  
+
+---
+
+### 2. Conversational Government Decision Dataset (CGDD)
+
+A standards-aligned dataset designed for **Conversational AI-driven policy decision-making in digital government**, enabling:
+
+- Natural language interaction with government data  
+- Explainable AI responses with reasoning traces  
+- Policy-aligned decision outputs  
+- Risk-aware and auditable insights  
+- Cross-domain intelligence (finance, healthcare, justice, environment)  
+
+📍 Location:  
+`conversational-government-decision-dataset/`
+
+📄 DOI:  
+https://doi.org/10.5281/zenodo.19195085  
+
+📚 Related Research:  
+Piridi, S. (2026)  
+*Conversational AI for Digital Government – A Standards-Aligned Framework for Data Transparency and Policy Decision-Making*  
+https://doi.org/10.5281/zenodo.17383234  
 
 ---
 
@@ -80,31 +99,31 @@ https://ieeexplore.ieee.org/document/11281047
 All datasets in this repository follow these principles:
 
 ### 1. Synthetic by Design
-
 No real user, enterprise, or confidential data is included.
 
 ### 2. Research-Oriented
-
 Datasets are structured for:
-
-* experimentation
-* benchmarking
-* model evaluation
+- Experimentation  
+- Benchmarking  
+- Model evaluation  
 
 ### 3. Explainability-Aware
-
 Where applicable, datasets include:
-
-* decision context
-* interpretability signals
+- Decision context  
+- Reasoning traces  
+- Interpretability signals  
 
 ### 4. Responsible AI Focus
-
 Datasets incorporate:
+- Fairness considerations  
+- Compliance signals  
+- Human oversight  
 
-* fairness considerations
-* compliance signals
-* human oversight
+### 5. Standards Alignment
+Datasets are aligned with global AI governance frameworks such as:
+- NIST AI Risk Management Framework (2023)  
+- EU AI Act (2024)  
+- ISO/IEC 42001 (2023)  
 
 ---
 
@@ -112,10 +131,10 @@ Datasets incorporate:
 
 You can use these datasets to:
 
-* Train machine learning models
-* Evaluate decision-making systems
-* Build agent-based AI applications
-* Benchmark automation workflows
+- Train machine learning models  
+- Evaluate decision-making systems  
+- Build conversational and agent-based AI applications  
+- Benchmark automation and policy workflows  
 
 Each dataset folder contains detailed usage instructions.
 
@@ -123,17 +142,17 @@ Each dataset folder contains detailed usage instructions.
 
 ## Citation
 
-If you use this dataset, please cite:
+If you use these datasets, please cite:
 
+### TADD
 Sarat Piridi. (2026).  
 Trustworthy Automation Decision Dataset (TADD) [Data set].  
-Kaggle. https://doi.org/10.34740/KAGGLE/DSV/15338575
+Kaggle. https://doi.org/10.34740/KAGGLE/DSV/15338575  
 
-### Related Research
-
-Piridi, S., Koduri, N. K., Asundi, S. (2025).  
-"Extending Microsoft Power Platform with Responsible AI: A Model for Trustworthy Automation."  
-https://ieeexplore.ieee.org/document/11281047
+### CGDD
+Sarat Piridi. (2026).  
+Conversational Government Decision Dataset (CGDD) (v1.0).  
+Zenodo. https://doi.org/10.5281/zenodo.19195085  
 
 ---
 
@@ -142,15 +161,13 @@ https://ieeexplore.ieee.org/document/11281047
 Contributions are welcome.
 
 You may:
-
-* Propose new datasets
-* Improve documentation
-* Add tools or evaluation scripts
+- Propose new datasets  
+- Improve documentation  
+- Add tools or evaluation scripts  
 
 Requirements:
-
-* All data must be synthetic
-* No proprietary or sensitive data
+- All data must be synthetic  
+- No proprietary or sensitive data  
 
 ---
 
@@ -162,15 +179,15 @@ This repository is released under the MIT License unless otherwise specified wit
 
 ## Disclaimer
 
-All datasets are synthetic and intended for research and educational purposes only.
+All datasets are synthetic and intended for research and educational purposes only.  
 They do not represent any real organization, system, or individual.
 
 ---
 
 ## Author
 
-**Sarat Piridi**
-AI Researcher | Automation Architect | Agentic Systems
+**Sarat Piridi**  
+AI Researcher | Automation Architect | Agentic Systems  
 
 ---
 
@@ -178,10 +195,11 @@ AI Researcher | Automation Architect | Agentic Systems
 
 Planned additions include:
 
-* Multi-Agent Decision Intelligence Dataset
-* AI Workflow Benchmark Dataset
-* Human-AI Collaboration Dataset
-* Autonomous Automation Execution Dataset
+- Multi-Agent Decision Intelligence Dataset  
+- AI Workflow Benchmark Dataset  
+- Human-AI Collaboration Dataset  
+- Autonomous Automation Execution Dataset  
+- Public Sector Policy Intelligence Benchmark Dataset  
 
 ---
 
@@ -189,4 +207,4 @@ Planned additions include:
 
 For research collaboration or inquiries, please connect via GitHub or professional channels.
 
----
+
