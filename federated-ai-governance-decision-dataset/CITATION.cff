@@ -1,0 +1,21 @@
+cff-version: 1.2.0
+message: >-
+  If you use the Federated AI Governance Decision Dataset (FAGDD), please cite
+  the dataset repository or release. Zenodo is intended to be the primary
+  archival source for this dataset, while Kaggle is intended as a distribution
+  channel.
+title: Federated AI Governance Decision Dataset (FAGDD)
+type: dataset
+authors:
+  - family-names: Piridi
+    given-names: Sarat
+repository-code: https://github.com/saratpiridi/AI-DataSets
+version: v1.0
+date-released: 2026-03-23
+preferred-citation:
+  type: dataset
+  authors:
+    - family-names: Piridi
+      given-names: Sarat
+  title: Federated AI Governance Decision Dataset (FAGDD)
+  year: 2026
