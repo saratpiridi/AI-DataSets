@@ -1,3 +1,5 @@
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.19195085.svg)](https://doi.org/10.5281/zenodo.19195085)
+
 # Conversational Government Decision Dataset
 
 ## Overview
@@ -81,7 +83,9 @@ All queries, explanations, data source references, and outcomes were generated f
 
 ## Citation
 
-If you use this dataset, cite the dataset repository or release associated with your work.
+If you use this dataset, please cite:
+
+Piridi, S. (2026). Conversational Government Decision Dataset (CGDD) (v1.0). Zenodo. https://doi.org/10.5281/zenodo.19195085
 
 If you use the conceptual framework, standards-aligned methodology, or research motivation that informed the dataset design, also cite the associated white paper:
 
