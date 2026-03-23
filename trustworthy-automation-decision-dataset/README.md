@@ -1,3 +1,5 @@
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.19191957.svg)](https://doi.org/10.5281/zenodo.19191957)
+
 # Trustworthy Automation Decision Dataset (TADD)
 
 TADD is a fully synthetic, research-oriented dataset for studying trustworthy automation decisions in operational workflows. It is designed for academic experiments, benchmarking, interpretability studies, and responsible AI evaluations involving human oversight, model confidence, explainability, fairness risk, and compliance risk.
