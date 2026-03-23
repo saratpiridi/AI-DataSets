@@ -1,0 +1,38 @@
+cff-version: 1.2.0
+message: >-
+  If you use the Trustworthy Automation Decision Dataset (TADD), please cite
+  the dataset or repository release. If you use the conceptual framework or
+  methodological basis behind the dataset design, please also cite the related
+  conference paper "Extending Microsoft Power Platform with Responsible AI: A
+  Model for Trustworthy Automation" (DOI:
+  10.1109/ASIANCON66527.2025.11281047).
+title: Trustworthy Automation Decision Dataset (TADD)
+repository-code: https://github.com/saratpiridi/AI-DataSets
+type: dataset
+authors:
+  - family-names: Piridi
+    given-names: Sarat
+preferred-citation:
+  type: dataset
+  authors:
+    - family-names: Piridi
+      given-names: Sarat
+  title: Trustworthy Automation Decision Dataset (TADD)
+  year: 2026
+  doi: TO_BE_ADDED
+  url: TO_BE_ADDED
+references:
+  - type: paper-conference
+    authors:
+      - family-names: Piridi
+        given-names: Sarat
+      - family-names: Koduri
+        given-names: Nataraja Kumar
+      - family-names: Asundi
+        given-names: Satyanarayana
+    title: Extending Microsoft Power Platform with Responsible AI: A Model for Trustworthy Automation
+    year: 2025
+    conference:
+      name: 2025 5th Asian Conference on Innovation in Technology (ASIANCON)
+    doi: 10.1109/ASIANCON66527.2025.11281047
+    url: https://ieeexplore.ieee.org/document/11281047

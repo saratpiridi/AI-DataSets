@@ -45,11 +45,37 @@ The generation process includes constraints to ensure:
 - consistent override behavior
 - realistic but synthetic variation across records
 
+## Source Research
+
+This dataset operationalizes concepts from the paper *Extending Microsoft Power Platform with Responsible AI: A Model for Trustworthy Automation* by Sarat Piridi, Nataraja Kumar Koduri, and Satyanarayana Asundi, presented at the 2025 5th Asian Conference on Innovation in Technology (ASIANCON).
+
+The dataset design reflects research themes discussed in that paper, including:
+
+- responsible AI in automation
+- explainability
+- fairness risk
+- compliance risk
+- human-in-the-loop oversight
+
+Paper URL: https://ieeexplore.ieee.org/document/11281047
+
+DOI: 10.1109/ASIANCON66527.2025.11281047
+
 ## Ethical Considerations
 
 TADD is intentionally synthetic and does not contain personal data. This reduces privacy risk and makes the dataset safer for open publication. Even so, users should be careful not to overgeneralize from the synthetic distributions or treat the dataset as evidence about real populations, institutions, or operational harms.
 
 The dataset includes fairness and compliance risk fields to support governance analysis, but these labels are synthetic abstractions rather than validated legal or sociotechnical assessments.
+
+## Citation Guidance
+
+Users should cite the dataset for direct use of the TADD records, schema, or derived repository releases.
+
+Users should also cite the paper *Extending Microsoft Power Platform with Responsible AI: A Model for Trustworthy Automation* when referring to the conceptual framing, research motivation, or methodological foundation that informed the dataset design.
+
+## Provenance
+
+This dataset is a synthetic research asset derived from the conceptual framework described in the above paper. It does not contain or reproduce proprietary, confidential, or real-world organizational data.
 
 ## Limitations
 

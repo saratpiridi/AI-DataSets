@@ -2,7 +2,7 @@
 
 TADD is a fully synthetic, research-oriented dataset for studying trustworthy automation decisions in operational workflows. It is designed for academic experiments, benchmarking, interpretability studies, and responsible AI evaluations involving human oversight, model confidence, explainability, fairness risk, and compliance risk.
 
-The dataset is inspired by themes from the research paper *Extending Microsoft Power Platform with Responsible AI: A Model for Trustworthy Automation*, while keeping all records generic, non-proprietary, and suitable for open-source publication.
+The dataset is derived from concepts presented in the research paper *Extending Microsoft Power Platform with Responsible AI: A Model for Trustworthy Automation*, while keeping all records generic, non-proprietary, and suitable for open-source publication.
 
 ## Synthetic Data Statement
 
@@ -24,16 +24,18 @@ TADD provides a compact benchmark for analyzing how automated recommendations in
 
 ```text
 trustworthy-automation-decision-dataset/
-├── README.md
-├── dataset_card.md
-├── LICENSE
-├── .gitignore
-├── data/
-│   └── tadd_v1.csv
-└── scripts/
-    ├── generate_tadd.py
-    ├── validate_tadd.py
-    └── summarize_tadd.py
+|-- README.md
+|-- dataset_card.md
+|-- CITATION.cff
+|-- zenodo_metadata_notes.md
+|-- LICENSE
+|-- .gitignore
+|-- data/
+|   `-- tadd_v1.csv
+`-- scripts/
+    |-- generate_tadd.py
+    |-- validate_tadd.py
+    `-- summarize_tadd.py
 ```
 
 ## Schema
@@ -81,13 +83,15 @@ python scripts/summarize_tadd.py
 
 The generator uses `random.seed(42)` to ensure deterministic output.
 
-## Research Reference
+## Related Research
 
-Reference paper:
+This dataset is derived from concepts presented in the conference paper:
 
-- *Extending Microsoft Power Platform with Responsible AI: A Model for Trustworthy Automation*
+- Piridi, Sarat, Nataraja Kumar Koduri, and Satyanarayana Asundi. *Extending Microsoft Power Platform with Responsible AI: A Model for Trustworthy Automation*. 2025 5th Asian Conference on Innovation in Technology (ASIANCON), 2025.
+- Paper URL: https://ieeexplore.ieee.org/document/11281047
+- DOI: 10.1109/ASIANCON66527.2025.11281047
 
-This dataset is a synthetic research artifact inspired by that paper's high-level themes around responsible AI and trustworthy automation. The dataset itself does not include proprietary workflows, vendor-specific terminology, or source data from the paper.
+TADD operationalizes research themes from that paper, including responsible AI in automation, explainability-aware decisions, fairness risk, compliance risk, and human-in-the-loop oversight. This repository is an independent synthetic dataset project and does not reproduce proprietary workflows or source data from the paper.
 
 ## Suggested Uses
 
@@ -97,6 +101,41 @@ This dataset is a synthetic research artifact inspired by that paper's high-leve
 - prototyping explainability-aware workflow analytics
 - studying override behavior under varying risk conditions
 
-## Citation
+## How to Cite
 
-If you publish work using this dataset, cite the repository and optionally reference the motivating paper in your related work section.
+If you use the dataset directly, cite the dataset or repository release associated with your work.
+
+If you use the conceptual framework, methodological framing, or research basis that informed the dataset design, also cite the paper *Extending Microsoft Power Platform with Responsible AI: A Model for Trustworthy Automation*.
+
+Paper citation BibTeX:
+
+```bibtex
+@inproceedings{piridi2025trustworthyautomation,
+  author    = {Sarat Piridi and Nataraja Kumar Koduri and Satyanarayana Asundi},
+  title     = {Extending Microsoft Power Platform with Responsible AI: A Model for Trustworthy Automation},
+  booktitle = {2025 5th Asian Conference on Innovation in Technology (ASIANCON)},
+  year      = {2025},
+  doi       = {10.1109/ASIANCON66527.2025.11281047},
+  url       = {https://ieeexplore.ieee.org/document/11281047}
+}
+```
+
+Dataset citation placeholder BibTeX:
+
+```bibtex
+@dataset{piridi_tadd_2026,
+  author = {Sarat Piridi},
+  title  = {Trustworthy Automation Decision Dataset (TADD)},
+  year   = {2026},
+  doi    = {TO_BE_ADDED},
+  url    = {TO_BE_ADDED}
+}
+```
+
+## Zenodo Metadata Notes
+
+For Zenodo upload, add the paper as a related identifier:
+
+- Identifier: https://ieeexplore.ieee.org/document/11281047
+- Relation: Is derived from
+- DOI: 10.1109/ASIANCON66527.2025.11281047
